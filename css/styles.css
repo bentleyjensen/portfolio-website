@@ -145,19 +145,6 @@ button:focus,
     text-decoration: none;
 }
 
-.profile {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.profile_portrait {
-    width: 250px;
-    height: auto;
-    margin-right: 40px;
-    float: left;
-    border-radius: 50%;
-}
-
 .page-footer {
     clear: both;
     display: flex;
@@ -190,6 +177,27 @@ button:focus,
 .project-list_item {
     background-color: var(--Nord2);
     padding: 10px 10px;
+}
+
+.profile {
+    max-width: 520px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.profile_item {
+    background-color: var(--Nord2);
+    /* padding: 10px 10px; */
+}
+
+.profile_portrait {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .skills-list {
@@ -278,14 +286,27 @@ label.contact-form-field {
 }
 
 @media all and (max-width: 500px) {
-    .project-list {
+    .project-list,
+    .profile{
         grid-template-columns: 1fr;
+    }
+
+    .profile_item {
+        text-align: center;
     }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
     .project-list {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .profile{
+        grid-template-columns: 1fr;
+    }
+
+    .profile_item {
+        text-align: center;
     }
 }
 
