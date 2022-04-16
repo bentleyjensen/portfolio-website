@@ -1,4 +1,4 @@
-/* 
+/*
 https://madlittlemods.github.io/postcss-css-variables/playground/
 http://autoprefixer.github.io/
 */
@@ -52,7 +52,7 @@ http://autoprefixer.github.io/
 
 * {
     box-sizing: border-box;
-  }
+}
 
 body {
     background-color: var(--Nord0);
@@ -97,6 +97,7 @@ a:visited {
 a:active {
     color: var(--Nord7);
 }
+
 button,
 .button {
     border: none;
@@ -113,8 +114,7 @@ button,
 button:hover,
 button:focus,
 .button:hover,
-.button:focus
- {
+.button:focus {
     cursor: pointer;
     background-color: var(--Nord8);
 }
@@ -272,6 +272,7 @@ label.contact-form-field {
 .cloud-front {
     animation: 30s cloud-move infinite alternate ease;
 }
+
 .cloud-back {
     animation: 40s cloud-move-reverse infinite alternate linear;
 }
