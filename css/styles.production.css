@@ -196,7 +196,6 @@ button:focus {
 }
 
 .profile {
-    max-width: 520px;
     margin: 0 auto;
     display: -ms-grid;
     display: grid;
@@ -206,12 +205,22 @@ button:focus {
     padding: 0 20px;
 }
 
-.profile_item {
-    background-color: #434C5E;
-    /* padding: 10px 10px; */
+/* .profile_item {
+    background-color: var(--Nord2);
+    padding: 10px 10px;
+} */
+
+.profile_intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .profile_portrait {
+    float: right;
     width: 250px;
     height: auto;
     margin: 0 auto;
@@ -304,7 +313,7 @@ label.contact-form-field {
         -webkit-transform: translate(200px, 50px);
                 transform: translate(200px, 50px);
     }
-  }
+}
 
 @keyframes cloud-move {
     from {
@@ -387,6 +396,8 @@ label.contact-form-field {
 
     .profile_item {
         text-align: center;
+        float: none;
+        margin: 0 auto;
     }
 }
 
