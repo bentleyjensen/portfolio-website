@@ -38,7 +38,7 @@
         </header>
         <main>
             <h1 class="centered">Contact Me</h1>
-            <div>
+            <div class="centered">
                 <p>
                     Bentley Jensen<br>
                     Portland, OR<br>
@@ -49,6 +49,8 @@
                 <p>
                     <a href="mailto:testemail@gmail.com">Send me an email</a>
                 </p>
+            </div>
+            <div class="contact-form">
                 <form id="contact-form">
                     <label class="contact-form-field" for="contact-email">* Email:</label>
                     <input class="contact-form-field" id="contact-email" type="email" required>
@@ -57,9 +59,9 @@
                     <input class="contact-form-field" id="contact-phone" type="tel">
 
                     <label class="contact-form-field" for="contact-message">* Message (max. 240 characters):</label>
-                    <textarea class="contact-form-field" id="contact-message" maxlength="240" required></textarea>
+                    <textarea class="contact-form-field" id="contact-message" maxlength="240" placeholder="This form is under development and may not work." required></textarea>
 
-                    <input class="contact-form-field" type="submit" value="Send Message">
+                    <input class="button button-submit contact-form-field " type="submit" value="Send Message">
                 </form>
             </div>
         </main>

@@ -222,12 +222,31 @@ button:focus,
     text-align: center;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
 #contact-form {
     margin: 10px;
+    width: 33%;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+textarea {
+    height: 100px;
 }
 
 .contact-form-field {
     display: block;
+    width: 100%;
+}
+
+.button-submit {
+    width:  auto;
+    float: right;
+    margin: 20px 0;
 }
 
 label.contact-form-field {
