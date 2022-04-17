@@ -71,6 +71,10 @@ a:visited {
     color: #81A1C1;
 }
 
+a.button {
+    color: inherit;
+}
+
 a:active {
     color: #8FBCBB;
 }
@@ -324,7 +328,7 @@ label.contact-form-field {
         -webkit-transform: translate(200px, 50px);
                 transform: translate(200px, 50px);
     }
-  }
+}
 
 @-webkit-keyframes cloud-move-reverse {
     from {

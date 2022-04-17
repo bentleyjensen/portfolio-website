@@ -94,6 +94,10 @@ a:visited {
     color: var(--Nord9);
 }
 
+a.button {
+    color: inherit;
+}
+
 a:active {
     color: var(--Nord7);
 }
