@@ -234,6 +234,10 @@ button:focus,
     max-width: 500px;
 }
 
+.hidden-field {
+    display: none;
+}
+
 textarea {
     height: 100px;
 }

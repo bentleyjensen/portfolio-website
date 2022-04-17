@@ -51,15 +51,18 @@
                 </p>
             </div>
             <div class="contact-form">
-                <form id="contact-form">
+                <form id="contact-form" name="portfolio-contact-form" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="hidden-field">
                     <label class="contact-form-field" for="contact-email">* Email:</label>
                     <input class="contact-form-field" id="contact-email" type="email" required>
 
                     <label class="contact-form-field" for="contact-phone">Phone:</label>
                     <input class="contact-form-field" id="contact-phone" type="tel">
+                    <input class="hidden-field" type="checkbox" name="hidden-field" contents="This field is for robots.">
 
                     <label class="contact-form-field" for="contact-message">* Message (max. 240 characters):</label>
                     <textarea class="contact-form-field" id="contact-message" maxlength="240" placeholder="This form is under development and may not work." required></textarea>
+
+                    <div data-netlify-recaptcha="true"></div>
 
                     <input class="button button-submit contact-form-field " type="submit" value="Send Message">
                 </form>
