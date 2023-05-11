@@ -1,3 +1,6 @@
+# THIS PROJECT IS DEPRECATED IN FAVOR OF [BENTLEYJENSEN.GITHUB.IO](https://github.com/bentleyjensen/bentleyjensen.github.io)
+
+
 # Portfolio
 
 This is a portfolio of me and my work. Hopefully it will get me jobs.
