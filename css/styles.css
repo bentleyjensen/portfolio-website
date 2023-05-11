@@ -149,11 +149,22 @@ button:focus,
 }
 
 .nav-list-item {
-  /* TODO: make fancier & add hover animation */
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav-list-item:hover {
+  border-bottom: 2px solid #b48ead;
+  border-radius: 5px;
 }
 
 .nav-list-item-active {
   text-decoration: none;
+  border-top: 3px solid #b48ead;
+  border-left: 1px solid #b48ead;
+  border-right: 1px solid #b48ead;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .page-footer {
@@ -170,7 +181,8 @@ button:focus,
 }
 
 .page-header-item {
-  flex: 0 1 200px;
+  flex: 0 1 50px;
+  max-height: 50px;
 }
 
 .page-header-item:last-child {
@@ -261,8 +273,8 @@ textarea {
 }
 
 .project-img {
-  /* height: 150px; */
   width: 100%;
+  max-height: 280px;
 }
 
 label.contact-form-field {
